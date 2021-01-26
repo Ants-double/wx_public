@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: mutton
+
+
+
+
+weiXin:
+  token: "ants"
+wechat:
+  appid: "wx509c25729321abe7"
+  AppSecret: "8103d2045b16a68e9f5fff54aa594177"
+  tokenUrl: "https://api.weixin.qq.com/cgi-bin/token"
+
+server:
+  port: 80
+  servlet:
+    context-path: "/wx"
+
+logging:
+  level:
+    com.ants.wx.muttom: DEBUG
